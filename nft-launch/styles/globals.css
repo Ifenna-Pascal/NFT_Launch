@@ -27,4 +27,12 @@ a {
     @apply before:content-[''] bg-red-400 absolute -left-3 w-[2rem]
   }
 
+  .navItem {
+    @apply font-semibold text-white px-4 font-manrope text-base py-3 md:py-0
+  }
+
+  .iconItem {
+    @apply bg-white rounded-md p-2 mr-3
+  }
+
 }
