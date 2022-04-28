@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import Section from "../components/Section";
@@ -25,6 +26,7 @@ export default function Home() {
         <Section1 />
         <Section2 />
         <Section />
+        <Footer />
       </main>
       {/* <div className='bg-gray-900 h-screen '>
      <div className='absolute roadmap m-24 bg-[#E5A301] w-[40rem] max-w-[45rem] min-w-[30rem]'>
