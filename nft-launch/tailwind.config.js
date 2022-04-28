@@ -19,7 +19,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url(/imgs/banner.jpg)",
-        'teams': "url(/imgs/teams.jpg)"
+        'teams': "url(/imgs/teams.jpg)",
+        'section': 'url(/imgs/section.jpg)',
+        'section2': 'url(/imgs/section2.png)'
       }
     },
   },
