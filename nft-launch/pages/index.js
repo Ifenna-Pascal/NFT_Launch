@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../components/About'
 import Hero from '../components/Hero'
 import Nav from '../components/Nav'
+import Team from '../components/Team'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,6 +17,8 @@ export default function Home() {
       <main className='w-full h-full bg-[#171835]'>
         <Nav />
         <Hero />
+        <About />
+        <Team />
       </main>
      {/* <div className='bg-gray-900 h-screen '>
      <div className='absolute roadmap m-24 bg-[#E5A301] w-[40rem] max-w-[45rem] min-w-[30rem]'>

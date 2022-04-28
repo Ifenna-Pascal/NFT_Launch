@@ -48,7 +48,7 @@ function Hero() {
                 height="90%"
                 layout="responsive"
                 objectFit="contain"
-                className="skew-y-6"
+                className="skew-y-[6deg]"
               />
             ))}
           </Slider>

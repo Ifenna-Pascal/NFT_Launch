@@ -10,7 +10,7 @@ function Nav() {
   };
   const [show, setShow] = useState(false);
   return (
-    <nav className="w-full">
+    <nav className="w-full sticky z-50 bg-[#171835] top-0">
       <div className="container px-5 lg:px-0 py-5 flex items-center justify-between">
         <div className="flex items-center">
           <div className="mr-4">
@@ -83,7 +83,7 @@ function Nav() {
                 <FaTelegramPlane className="w-5 h-5" />
               </span>
             </div>
-            <button className="bg-[#E5A301] rounded-lg px-8 my-4 py-3 flex items-center flex-col font-semibold text-white">
+            <button className="bg-[#E5A301] rounded-lg px-8 my-4 py-3 hover:bg-[#856410]  flex items-center flex-col font-semibold text-white">
               Connect Wallet
             </button>
           </div>
