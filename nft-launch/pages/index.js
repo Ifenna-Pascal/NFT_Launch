@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
+import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
@@ -25,6 +26,7 @@ export default function Home() {
         <Team />
         <Section1 />
         <Section2 />
+        <FAQ />
         <Section />
         <Footer />
       </main>
